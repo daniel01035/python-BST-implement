@@ -29,4 +29,3 @@ class BST:
             return self.rightchild.find(data)       # 繼續尋找右節點的方向
         else:
             print(data, "is found.")                # data == root 的時候就找到了
-
